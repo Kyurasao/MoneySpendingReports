@@ -1,5 +1,5 @@
 """
-This is the main script
+This is a program for collecting expenses and issuing reports.
 """
 
 
