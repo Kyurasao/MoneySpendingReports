@@ -6,15 +6,25 @@ a report on the amount of expenses for the day will be issued.
 
 
 def main():
-    expense_list = []
-    value = ' '
-    while value:
-        value = input('Израсходовынную сумму: ')
-        if value == '':
+    expense_dict = {}
+    details = {}
+    value = 'yes'
+    while value == 'yes':
+        if value == 'no':
             break
         else:
-            expense_list.append(value)
-    print(expense_list)
+            data_time = input('Enter the data and the time if the expense: ')
+            payer = input('Enter the payer: ')
+            details['payer'] = payer
+            amount = input('Enter the amount: ')
+            details['amount'] = amount
+            category = input('Enter the category of the expense: ')
+            details['category'] = category
+            method = input('Enter the payment method: ')
+            details['method'] = method
+            value = input('To enter new expense - text "yes", to exit - text "no"')
+            expense_dict[data_time] = details
+    print(expense_dict)
 
 
 if __name__ == '__main__':
