@@ -24,7 +24,6 @@ def main():
             details['method'] = method
             value = input('To enter new expense - text "yes", to exit - text "no": ')
             expense_dict[data_time] = details
-
             with open('db.json', 'a+') as f:
                 f.write(str(expense_dict) + '\n')
 
