@@ -13,16 +13,18 @@ def main():
         if value == 'no':
             break
         else:
-            data_time = input('Enter the data and the time if the expense, dd.mm.yyyy hh:mm:ss: ')
-            payer = input('Enter the payer: ')
+            data_time = input('Enter the data and the time if the expense, \ndd.mm.yyyy hh:mm:ss: \n')
+            payer = input('Enter the payer: \n')
             details['payer'] = payer
-            amount = input('Enter the amount, example: ')
+            amount = input('Enter the amount: \n')
             details['amount'] = amount
-            category = input('Enter the category of the expense, category list! : ')
+            category = input('Enter the category of the expense, '
+                             '\nhealth, clothes, eating out, food, trips, entertainments, connection, car, '
+                             'payments, other : \n')
             details['category'] = category
-            method = input('Enter the payment method, card or cash: ')
+            method = input('Enter the payment method, \ncard or cash: \n')
             details['method'] = method
-            value = input('To enter new expense - text "yes", to exit - text "no": ')
+            value = input('To enter new expense - text "yes", to exit - text "no": \n')
             expense_dict[data_time] = details
             with open('db.json', 'a+') as f:
                 f.write(str(expense_dict) + '\n')

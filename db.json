@@ -3,3 +3,4 @@
 {'7': {'payer': 'A', 'amount': '10', 'category': 'F', 'method': 'card'}}
 {'7': {'payer': 'A', 'amount': '12', 'category': 'R', 'method': 'CAsh'}}
 {'7': {'payer': 'S', 'amount': '1', 'category': 'S', 'method': 'ca'}}{'7': {'payer': 'Z', 'amount': 'Z', 'category': 'Z', 'method': 'Z'}}
+{'10.07.2023 10:56:11': {'payer': 'Anton', 'amount': '100', 'category': 'other', 'method': 'card'}}
