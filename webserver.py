@@ -22,3 +22,8 @@ async def list_of_expenses():
     for index, expense in enumerate(expenses):
         result.append({f'{index + 1}': expense})
     return {"expenses": result}
+
+
+@app.get("/expense/{item_id}")
+async def expense(item_id: int):
+    return {"item_id": expenses[int(item_id) - 1]}
