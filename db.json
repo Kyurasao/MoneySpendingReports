@@ -1,6 +1,1 @@
-{'1': {'payer': 'A', 'amount': 'D', 'category': 'a', 'method': 'card'}}
-{'07': {'payer': 'A', 'amount': '1', 'category': 'food', 'method': 'cash'}}
-NEW
-{'7': {'payer': 'A', 'amount': '12', 'category': 'R', 'method': 'CAsh'}}
-{'7': {'payer': 'S', 'amount': '1', 'category': 'S', 'method': 'ca'}}{'7': {'payer': 'Z', 'amount': 'Z', 'category': 'Z', 'method': 'Z'}}
-{'10.07.2023 10:56:11': {'payer': 'Anton', 'amount': '100', 'category': 'other', 'method': 'card'}}
+[{"12.07.2023 12:37:58": {"payer": "Anton", "amount": "10", "category": "health", "method": "card"}}, {"12.07.2023 12:38:30": {"payer": "Anton", "amount": "1", "category": "food", "method": "card"}}, {"12.07.2023 12:40:43": {"payer": "Anton", "amount": "100", "category": "other", "method": "cash"}}]

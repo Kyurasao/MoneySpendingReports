@@ -1,6 +1,5 @@
 .idea
-base - error.json
-base.json
-db1.json
-test.py
+comamds.txt
+db_error.json
 main_.py
+test.py
