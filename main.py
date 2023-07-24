@@ -26,7 +26,7 @@ def create_expense(expenses: List):
     details = {}
 
     print(f"Let's enter expenses data...")
-    date_time_string = input("Enter time of expense | 'now' orr date in format [dd.mm.yyyy hh:mm:ss]: ")
+    date_time_string = input("Enter time of expense | 'now' or date in format [dd.mm.yyyy hh:mm:ss]: ")
     date_time = time.strftime('%d.%m.%Y %H:%M:%S',
                               time.localtime(time.time())) if date_time_string == 'now' else date_time_string
     details['payer'] = input('Who payed: ')
